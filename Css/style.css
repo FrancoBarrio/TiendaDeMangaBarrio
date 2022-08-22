@@ -1,0 +1,884 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans&family=Oswald:wght@500&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1
+{
+  background-image: url(../Resources/Imagenes/Otros/JJK\ BANNER.jpg);
+  padding-bottom: 70px;
+  background-position: center;
+}
+
+.fuenteTitulo
+{
+  font-family:"Kaushan Script", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 50px;
+  text-shadow: 2px 1px 4px rgb(0, 0, 0);
+  display: block;
+  color: #E78D1E;
+}
+
+.fuenteLista
+{
+  font-family:"Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav
+{
+  background-color: #e78d1e;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+nav ul li
+{
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  margin: 14px;
+}
+
+nav ul li a:hover
+{
+ color: black;
+}
+
+.activo
+{
+  color: #000;
+}
+
+#formularioTitulo
+{
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+footer
+{
+  background-color: #E78D1E;
+  margin-top: 80px;
+}
+
+footer p
+{
+  font-family: "Oswald",sans-serif;
+  font-size: 14px;
+  font-weight: 500px;
+  margin-left: 6px;
+  text-align: center;
+}
+
+.borde
+{
+  border: 4px ;
+  border-style: groove ;
+  border-radius: 15px;
+  border-color: #000;
+}
+
+#imgInicio img
+{
+  border: 4px solid #000;
+} 
+
+#novedadesManga
+{
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-left: 225px;
+  margin-top: 70px;
+}
+
+#novedadesComics
+{
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-left: 225px;
+  margin-top: 20px;
+}
+
+/*----------------------------------------------CATALOGO------------------------------------------------------------*/
+
+.portadasMangaCatalogo
+{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portadasMangaCatalogo div .precio
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+.portadasMangaCatalogo div
+{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.portadasMangaCatalogo div p
+{
+  font-family: "Noto Sans",sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portadasMangaCatalogo div img
+{
+  width: 300px;
+  height: 420px;
+  border: 4px solid #000;
+}
+
+.filtro
+{
+  position: absolute;
+  top: 365px;
+  background-color: #fff;
+  margin-left: 35px;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  margin-top: -20px;
+}
+
+.filtro ul
+{
+  list-style-type:none;
+}
+
+.filtro ul li
+{
+  margin-bottom: 18px;
+  margin-top: 15px;
+  text-align: start;
+}
+
+.filtro ul li a
+{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.filtro ul li .filtroActivo
+{
+  color: #E78D1E;
+  
+}
+
+.filtro ul li a:hover
+{
+  color: #E78D1E;
+}
+
+.filtro h2
+{
+  font-family: "Oswald",sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #E78D1E;
+  text-align: center;
+}
+/*-------------------------------PREVENTA---------------------------------------*/
+#mainPreventa
+{
+  display: inline;
+}
+
+#tituloPreventa
+{
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.portadasPreventa
+{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portadasPreventa div .precio
+{
+  display: inline;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: line-through;
+  margin-right: 10px; 
+}
+
+.portadasPreventa .contPrecios
+{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.portadasPreventa div .precioPreventa
+{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.portadasPreventa div
+{
+  margin: 45px 40px 20px 40px ;
+}
+
+.portadasPreventa div p
+{
+  font-family: "Noto Sans",sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portadasPreventa div img
+{
+  width: 300px;
+  height: 440px;
+  border: 4px solid #000;
+}
+
+/*---------------------------------------------Formulario Contacto-----------------------------------------------------*/
+
+#formulario input
+{
+  display: block;
+  width: 500px;
+  height: 30px;
+  margin: 8px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #E78D1E;
+  border-radius: 15px;
+}
+
+#formulario textarea
+{
+  resize: none;
+  width: 500px;
+  height: 100px;
+  margin: 8px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #E78D1E;
+  border-radius: 15px;
+}
+
+/*---------------------------------------------------Grid-----------------------------------------------------------------*/
+
+#grid
+{
+  display: grid;
+  background-color: white;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-areas:  ". imgInicio imgInicio ."
+                        "novedadesManga  .  .  ."
+                        "portadasManga portadasManga portadasManga portadasManga"
+                        "novedadesComics .  .  ."
+                        "portadasComics portadasComics portadasComics portadasComics";
+}
+
+#imgInicio
+{
+  grid-area: imgInicio;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#novedadesManga
+{
+  grid-area: novedadesManga;
+}
+
+#novedadesComics
+{
+  grid-area: novedadesComics;
+}
+
+.portadasManga div .precio
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+.portadasManga
+{
+  grid-area: portadasManga;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.portadasManga div p
+{
+  font-family: "Noto Sans",sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portadasManga div
+{
+  margin-right: 50px; 
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.portadasManga div img
+{
+  width: 300px;
+  height: 440px;
+  border: 4px solid #000;  
+}
+
+.portadasComics div .precio
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+.portadasComics
+{
+  grid-area: portadasComics;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.portadasComics div p 
+{
+  font-family: "Noto Sans",sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portadasComics div
+{
+  margin-right: 50px; 
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.portadasComics div img
+{
+  width: 300px;
+  height: 440px;
+  border: 4px solid #000;  
+}
+
+/*-----------------------------------------------------------MERCHANDISING--------------------------------------------------------------------------*/
+#gridMerch
+{
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(6,280px);
+  grid-template-areas:"merch1 merch2 merch3 merch4 merch5 merch6"
+                      "merch7 merch8 merch9 merch10 merch11 merch12";
+  justify-content: end;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.merch1{grid-area: merch1; justify-self: center;}
+.merch2{grid-area: merch2; justify-self: center;}
+.merch3{grid-area: merch3; justify-self: center;}
+.merch4{grid-area: merch4; justify-self: center;}
+.merch5{grid-area: merch5; justify-self: center;}
+.merch6{grid-area: merch6; justify-self: center;}
+.merch7{grid-area: merch7; justify-self: center;}
+.merch8{grid-area: merch8; justify-self: center;}
+.merch9{grid-area: merch9; justify-self: center;}
+.merch10{grid-area: merch10; justify-self: center;}
+.merch11{grid-area: merch11; justify-self: center;}
+.merch12{grid-area: merch12; justify-self: center;}
+
+.merch
+{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.merch .precio
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+.merch p 
+{
+  font-family: "Noto Sans",sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.merch img
+{
+  width: 200px;
+  height: 240px;
+  border: 2px solid black;
+}
+
+/*-----------------------------------------Media Queries----------------------------------------------*/
+
+@media all and (max-width: 1024px)
+{
+  /*---------Nav---------*/
+  .fuenteTitulo
+  {
+    font-size: 60px; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }  
+
+   .fuenteLista
+  {
+    font-size: 24px;
+    font-weight: 500;
+  } 
+
+   nav ul li
+  {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  nav ul li a
+  {
+    margin: 4px;
+  } 
+  
+  /*-----------INICIO-----------*/
+
+  #imgInicio img
+  {
+    border: #000 solid 4px;
+    width: 1000px;
+    height: 500px;    
+  } 
+
+  #novedadesManga
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-left: 5px;
+  }
+
+  #novedadesComics
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-left: 5px;
+    margin-top: 50px;
+  }
+
+  .portadasManga
+  {
+    display: inline-flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-left: 0px; 
+  }
+
+  .portadasManga img
+  {
+    width: 190px;
+    height: 300px;
+    border: 2px solid #000;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .portadasComics
+  {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+
+  .portadasComics img
+  {
+    width: 190px;
+    height: 300px;
+    border: 2px solid #000;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #grid
+  {
+    grid-template-areas:  "imgInicio imgInicio imgInicio imgInicio"
+                          "novedadesManga novedadesManga novedadesManga novedadesManga"
+                          "portadasManga portadasManga portadasManga portadasManga"
+                          "novedadesComics novedadesComics novedadesComics  novedadesComics"
+                          "portadasComics portadasComics portadasComics portadasComics";
+  }
+
+  /*----------Catalogo----------*/
+
+  .portadasMangaCatalogo
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 25px;
+  }
+
+  .portadasMangaCatalogo img
+  {
+    width: 180px;
+    height: 280px;   
+    border: 2px solid #000;
+  }
+
+  .filtro
+  {
+    position: absolute;
+    top: 332px;
+    margin-left: 0px;
+  }
+
+  .filtro ul li a
+  {
+    font-size: 20px;
+  }
+  .filtro ul li
+  {
+    list-style-type:none;
+    margin-bottom: 14px;
+  }
+
+  .filtro ul
+  {
+    margin-left: 0px ;
+  }
+
+  /*----------Merchandising------------*/
+
+  #gridMerch
+  {
+    grid-template-columns: repeat(3, 250px);
+    grid-template-areas:"merch1 merch2 merch3"
+                        "merch4 merch5 merch6"
+                        "merch7 merch8 merch9"
+                        "merch10 merch11 merch12";
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+ 
+  /*--------------Proximos Lanzamientos----------------*/
+
+  #tituloPreventa
+  {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .portadasPreventa div
+  {
+    justify-content: center;
+    margin: 45px 35px 20px 35px ;
+  }
+  
+  /*----------------------Contacto--------------------------*/
+
+  #formularioTitulo
+  {
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  
+  #formulario input
+  {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  #formulario textarea
+  {
+    resize: none;
+    width: 400px;
+    height: 100px;
+    margin: 8px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 500px)
+{
+  /*---------Nav---------*/
+  .fuenteTitulo
+  {
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .fuenteLista
+  {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  nav ul li
+  {
+    margin-right: 2px;
+  }
+
+  nav ul li a
+  {
+    margin: 1px;
+  }
+  
+  /*-------INICIO---------*/
+  
+
+  #imgInicio img
+  {
+    border: #000 solid 4px;
+    border-left: 0;
+    border-right: 0;
+    width: 480px;
+    height: 300px;
+  }
+
+  #novedadesManga
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 5px;
+  }
+
+  #novedadesComics
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-top: 50px;
+  }
+
+  .portadasManga div
+  {
+   margin: 0px 0px 0px 0px;
+  }
+
+  .portadasManga img
+  {
+    width: 150px;
+    height: 240px;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+    margin-top: 45px;
+  }
+
+  .portadasComics div
+  {
+   margin: 0px 0px 0px 0px;
+  }
+
+  .portadasComics img
+  {
+    width: 150px;
+    height: 240px;
+    border: 2px solid #000;
+    margin-bottom: 30px;
+    margin-top: 45px;
+  }
+
+  #grid
+  {
+    grid-template-areas:  "imgInicio imgInicio imgInicio imgInicio"
+                          "novedadesManga novedadesManga novedadesManga novedadesManga"
+                          "portadasManga portadasManga portadasManga portadasManga"
+                          "novedadesComics novedadesComics novedadesComics  novedadesComics"
+                          "portadasComics portadasComics portadasComics portadasComics";
+  }
+
+  /*----------Catalogo----------*/
+
+  .portadasMangaCatalogo 
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+  }
+
+  .portadasMangaCatalogo div
+  {
+    margin-top: 35px;
+  }
+
+  .portadasMangaCatalogo div img
+  {
+    width: 180px;
+    height: 250px;
+    border: 2px solid #000;
+  }
+
+  .filtro
+  {
+    position: absolute;
+    top: 220px; 
+  }
+
+  .filtro h2
+  {
+    font-size: 24px;
+  }
+
+  .filtro ul li a
+  {
+    font-size: 14px;
+  }
+
+  .filtro ul
+  {
+    margin-left: 10px ;
+  }
+
+  /*----------Merchandising------------*/
+
+  #gridMerch
+  {
+    grid-template-columns: repeat(2, 180px);
+    grid-template-areas:"merch1 merch2"
+                        "merch3 merch4"
+                        "merch5 merch6"
+                        "merch7 merch8"
+                        "merch9 merch10"
+                        "merch11 merch12";
+    justify-content: end;         
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .merch
+  {
+    margin-top: 15px;
+  }
+  .merch img
+  {
+    width: 170px;
+    height: 200px;
+    
+    align-items: center;
+  }
+
+  /*--------------Proximos Lanzamientos----------------*/
+
+  #tituloPreventa
+  {
+    font-size: 24px;    
+  }
+
+  .portadasPreventa 
+  {
+    justify-content: center;
+  }
+  
+  #nombreLargo
+  {
+    margin-left: 12px;
+  }
+
+  #nombreLargo2
+  {
+    margin-left: 58px;
+  }
+
+  .portadasPreventa div
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .portadasPreventa div img
+  {
+    width: 180px;
+    height: 250px;
+    border: 2px solid #000;
+  }
+
+  /*---------------------Contacto--------------------------*/
+
+  #formularioTitulo
+  {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  
+  #formulario input
+  {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 8px;
+    font-size: 18px;
+  }
+
+  #formulario textarea
+  {
+    resize: none;
+    width: 400px;
+    height: 100px;
+    margin: 8px;
+    font-size: 20px;
+  }
+}

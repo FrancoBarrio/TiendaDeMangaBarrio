@@ -96,11 +96,6 @@ footer p
   border-color: #000;
 }
 
-#imgInicio img
-{
-  border: 4px solid #000;
-} 
-
 #novedadesManga
 {
   font-family: "Oswald", sans-serif;
@@ -297,6 +292,71 @@ footer p
   border-radius: 15px;
 }
 
+/*----------------------------------------animaciones---------------------------------------------*/
+.imgInicio .imgInicio2
+{
+  animation-name: pasador;
+  animation-duration: 60s; 
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  margin-top: 60px;
+  background-position: center;
+  background-image: url(/Resources/Imagenes/Otros/JJKP.jpg);
+  background-size: cover;
+  width: 1200px;
+  height: 650px;
+  border: 4px solid #000;
+}
+
+@keyframes pasador
+{
+  0%
+  {
+    
+  }
+  20%
+  {
+    background-image: url(/Resources/Imagenes/Otros/naruto.jpg);
+    background-size: cover;
+  }
+  40%
+  {
+    background-image: url(/Resources/Imagenes/Otros/haikyuu.jpg);
+    background-size: cover;
+  }
+  60%
+  {
+    background-image: url(/Resources/Imagenes/Otros/twd-comic.jpg);
+    background-size: cover;
+  }
+  80%
+  {
+    background-image: url(/Resources/Imagenes/Otros/TokyoRevengers.jpg);
+    background-size: cover;
+  }
+  100%
+  {
+    background-image: url(/Resources/Imagenes/Otros/Shingeki.jpg);
+    background-size: cover;
+  }
+}
+
+.imgInicio2 p
+{
+  font-family: "Oswald",sans-serif;
+  font-size: 20px;
+  display: inline-flex;
+  margin: 20px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px 35px 10px 35px;
+  border-radius: 5px;
+  position: absolute;
+  right: 350px;
+  top: 930px;
+}
+
 /*---------------------------------------------------Grid-----------------------------------------------------------------*/
 
 #grid
@@ -305,19 +365,18 @@ footer p
   background-color: white;
   width: 100%;
   grid-template-columns: repeat(4, 1fr) ;
-  grid-template-areas:  ". imgInicio imgInicio ."
+  grid-template-areas:  "imgInicio imgInicio imgInicio imgInicio"
                         "novedadesManga  .  .  ."
                         "portadasManga portadasManga portadasManga portadasManga"
                         "novedadesComics .  .  ."
                         "portadasComics portadasComics portadasComics portadasComics";
 }
 
-#imgInicio
+.imgInicio
 {
   grid-area: imgInicio;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  display: inline-flex;
+  justify-content: center;  
 }
 
 #novedadesManga

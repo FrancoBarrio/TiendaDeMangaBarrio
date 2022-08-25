@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/style.css">
     <link rel="shortcut icon" href="../Resources/Imagenes/Otros/android-icon-36x36.png" type="image/x-icon">
     <title>Contacto</title>
@@ -27,23 +28,44 @@
                        
             <h2 id="formularioTitulo">Necesitas Ayuda?</h2>
             
-            <section >
-                <form id="formulario">                 
-                
-                    <input type="text" name="Nombre" placeholder="NOMBRE" />
-                    <input type="email" name="Mail" placeholder="MAIL" required/>
-                    <input type="number" name="Telefono" placeholder="TELEFONO"/>      
-                    <textarea name="Mensaje" placeholder="MENSAJE"></textarea>     
-                </form>
-            </section>
-        
+            <form class="formulario">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Ingrese su mail</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Ingrese su contraseña</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="mensaje form-control mb-3 " placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Ingrese su consulta</label>
+            </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13109.117452631563!2d-58.40592325!3d-34.77374184999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1661374624427!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </main>
 
     </header>
     
     
-    <footer>
-        <p>Desarrollado por Franco</p>
+    <footer class=" container-fluid ">
+         
+        <div class="bgFooter row p-5 text-white d-flex flex-row align-items-center">
+            <div class="bgFooter col-xs-12 col-md-6 col-lg-3">
+                <p>Derechos de autor</p>
+            </div>                
+            <div class="bgFooter col-xs-12 col-md-6 col-lg-3">
+                <p>Terminos y condiciones</p>
+            </div>                
+            <div class="bgFooter col-xs-12 col-md-6 col-lg-3">
+                <p>Metodos de pago</p>
+            </div>                       
+        </div>
+
     </footer>
 
 </body>

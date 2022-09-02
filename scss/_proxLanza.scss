@@ -1,0 +1,110 @@
+#mainPreventa
+{
+    display: inline;
+
+    #tituloPreventa
+    {
+        font-family: "Oswald", sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        color: black;
+        text-align: center;
+        margin-top: 45px;       
+    }    
+
+    .portadasPreventa
+    {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 120px;
+
+        div
+        {
+            margin: 45px 40px 20px 40px ;
+            
+            p
+            {
+                font-family: "Noto Sans",sans-serif;
+                font-size: 16px;
+                text-align: center;
+            }
+            
+            img
+            {
+                width: 300px;
+                height: 440px;
+                border: 3px solid #000;
+                box-sizing:content-box;
+            }
+            
+            .contPrecios
+            {
+                display: flex;
+                justify-content: center;
+                margin: 10px 0px 0px 0px;
+
+                .precioPreventa
+                {
+                    display: inline-block;
+                    font-size: 20px;
+                }
+            
+                .precio
+                {
+                    display: inline;
+                    font-size: 20px;
+                    text-align: center;
+                    text-decoration: line-through;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    @media all and (max-width: 1024px)
+    {
+        #tituloPreventa
+        {
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 500px)
+    {
+        #tituloPreventa
+        {
+          font-size: 24px;
+        }   
+
+        #nombreLargo
+        {
+          margin-left: 12px;
+        }
+      
+        #nombreLargo2
+        {
+          margin-left: 58px;
+        }
+        
+        .portadasPreventa
+        {
+            justify-content: center;
+
+            div
+            {
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+
+                img
+                {
+                    width: 180px;
+                    height: 250px;
+                    border: 2px solid #000;
+                }
+            }
+        }
+    }
+}

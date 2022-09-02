@@ -1,0 +1,623 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans&family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  line-height: 1.3; }
+
+*, ::after, ::before {
+  box-sizing: none; }
+
+p {
+  margin-bottom: 0;
+  margin-top: 5px; }
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0; }
+
+header div .fuenteTitulo {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 50px;
+  text-shadow: 2px 1px 4px black;
+  display: block;
+  color: #E78D1E;
+  /*h1*/
+  background-image: url(../Resources/Imagenes/Otros/Banner.jpg);
+  padding-bottom: 70px;
+  background-position: center;
+  margin-bottom: 0;
+  -webkit-text-stroke: 1px black;
+  width: 100%; }
+
+@media all and (max-width: 1024px) {
+  header div .fuenteTitulo {
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px; } }
+
+header nav {
+  background-color: #e78d1e; }
+  header nav .fuenteLista {
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: uppercase; }
+    header nav .fuenteLista li {
+      display: inline-flex;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      margin-left: 60px; }
+      header nav .fuenteLista li .search {
+        width: 400px;
+        position: relative;
+        bottom: 3px; }
+        header nav .fuenteLista li .search input {
+          margin-left: 390px; }
+      header nav .fuenteLista li a {
+        text-decoration: none;
+        color: #fff;
+        margin-top: 4px; }
+        header nav .fuenteLista li a:hover {
+          color: black; }
+      header nav .fuenteLista li .activo {
+        color: #000; }
+  @media all and (max-width: 1024px) {
+    header nav .fuenteLista {
+      font-size: 18px; }
+      header nav .fuenteLista li {
+        margin-right: 10px;
+        margin-left: 10px; }
+        header nav .fuenteLista li .search {
+          width: 300px;
+          bottom: 0px;
+          right: 20px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 60px; } }
+  @media screen and (max-width: 500px) {
+    header nav .fuenteLista {
+      font-size: 14px;
+      font-weight: 500; }
+      header nav .fuenteLista li {
+        margin-right: 2px;
+        margin-left: 10px; }
+        header nav .fuenteLista li a {
+          margin: 0px; }
+        header nav .fuenteLista li .search {
+          width: 200px;
+          bottom: 3px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 160px;
+            height: 30px; } }
+
+footer div {
+  background-color: #E78D1E;
+  display: inline-flex;
+  width: 100%; }
+
+footer p {
+  font-family: "Oswald",sans-serif;
+  font-size: 20px;
+  font-weight: 500px;
+  margin-left: 6px;
+  color: #fff;
+  text-shadow: 2px 2px 0px #000;
+  margin: 15px 130px 100px 230px; }
+
+@media all and (max-width: 1024px) {
+  footer p {
+    font-size: 16px;
+    margin: 15px 200px 100px 30px; } }
+
+@media screen and (max-width: 500px) {
+  footer p {
+    font-size: 20px;
+    margin: 15px 30px 100px 30px; } }
+
+#grid {
+  display: grid;
+  background-color: white;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "imgInicio imgInicio imgInicio imgInicio" "novedadesManga  novedadesManga  novedadesManga  novedadesManga" "portadasManga portadasManga portadasManga portadasManga" "novedadesComics novedadesComics  novedadesComics  novedadesComics" "portadasComics portadasComics portadasComics portadasComics"; }
+  #grid .imgInicio {
+    grid-area: imgInicio;
+    display: inline-flex;
+    justify-content: center; }
+    #grid .imgInicio .carousel .carrousel {
+      border: 2px solid black;
+      width: 1200px;
+      height: 675px;
+      margin-top: 30px; }
+      #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+        display: inline;
+        position: absolute;
+        top: 580px;
+        right: 541px;
+        width: 115px;
+        height: 50px;
+        font-size: 22px;
+        font-family: "Noto Sans",sans-serif;
+        font-weight: 600;
+        color: #fff;
+        background-color: black;
+        border: 2px solid #fff;
+        padding: 6px 6px 8px 6px;
+        border-radius: 6px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra:hover {
+          background-color: #e78d1e;
+          color: white;
+          border: 2px solid white; }
+      #grid .imgInicio .carousel .carrousel .carousel-item img {
+        width: 1200px;
+        height: 675px; }
+    @media all and (max-width: 1024px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 3px 0px 3px 0px solid black;
+        width: 1024px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          top: 590px;
+          right: 455px;
+          width: 110px;
+          height: 45px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 1024px; } }
+    @media screen and (max-width: 500px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 2px 0px 2px 0px solid black;
+        width: 500px;
+        height: 390px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          display: inline;
+          position: absolute;
+          top: 310px;
+          right: 204px;
+          width: 90px;
+          height: 40px;
+          font-size: 16px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 500px;
+          height: 390px; } }
+  #grid #novedadesManga {
+    grid-area: novedadesManga;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 233px;
+    margin-top: 70px; }
+  #grid .portadasManga {
+    grid-area: portadasManga;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    #grid .portadasManga div {
+      margin-right: 50px;
+      margin-top: 35px;
+      margin-left: 20px; }
+      #grid .portadasManga div img {
+        width: 300px;
+        height: 440px;
+        border: 3px solid #000; }
+      #grid .portadasManga div .precio {
+        font-size: 20px;
+        text-align: center; }
+      #grid .portadasManga div p {
+        font-family: "Noto Sans",sans-serif;
+        font-size: 16px;
+        text-align: center; }
+  #grid #novedadesComics {
+    grid-area: novedadesComics;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 233px;
+    margin-top: 50px; }
+  #grid .portadasComics {
+    grid-area: portadasComics;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 100px; }
+    #grid .portadasComics div {
+      margin-right: 50px;
+      margin-top: 35px;
+      margin-left: 20px; }
+      #grid .portadasComics div img {
+        width: 300px;
+        height: 440px;
+        border: 3px solid #000; }
+      #grid .portadasComics div .precio {
+        font-size: 20px;
+        text-align: center; }
+      #grid .portadasComics div p {
+        font-family: "Noto Sans",sans-serif;
+        font-size: 16px;
+        text-align: center; }
+  @media all and (max-width: 1024px) {
+    #grid #novedadesManga {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0px; }
+      #grid .portadasManga img {
+        width: 190px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 20px; }
+    #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0px; }
+      #grid .portadasComics img {
+        width: 190px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 20px; } }
+  @media screen and (max-width: 500px) {
+    #grid #novedadesManga {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga div {
+      margin: 10px; }
+      #grid .portadasManga div img {
+        width: 200px;
+        height: 310px;
+        border: 2px solid #000;
+        margin-bottom: 0px;
+        margin-top: 45px;
+        margin-left: 0px; }
+      #grid .portadasManga div p {
+        font-size: 12px; }
+      #grid .portadasManga div .precio {
+        font-size: 15px; }
+    #grid .portadasComics div {
+      margin: 10px; }
+      #grid .portadasComics div img {
+        width: 200px;
+        height: 310px;
+        border: 2px solid #000;
+        margin-bottom: 0px;
+        margin-top: 45px;
+        margin-left: 0px; }
+      #grid .portadasComics div p {
+        font-size: 12px; }
+      #grid .portadasComics div .precio {
+        font-size: 15px; } }
+
+main section .filtro {
+  position: absolute;
+  top: 340px;
+  background-color: #fff;
+  margin-left: 35px;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  margin-top: -30px; }
+  main section .filtro h2 {
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #E78D1E;
+    text-align: center; }
+  main section .filtro ul {
+    list-style-type: none; }
+    main section .filtro ul li {
+      margin-bottom: 18px;
+      margin-top: 15px;
+      text-align: start; }
+      main section .filtro ul li a {
+        font-family: "Oswald", sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000; }
+        main section .filtro ul li a:hover {
+          color: #E78D1E; }
+
+@media all and (max-width: 1024px) {
+  main section .filtro {
+    top: 320px;
+    margin-left: 0px; }
+    main section .filtro ul {
+      margin-left: 0px; }
+      main section .filtro ul li {
+        list-style-type: none;
+        margin-bottom: 14px; }
+        main section .filtro ul li a {
+          font-size: 20px; } }
+
+@media screen and (max-width: 500px) {
+  main section .filtro {
+    position: absolute;
+    top: 270px; }
+    main section .filtro h2 {
+      font-size: 24px; }
+    main section .filtro ul {
+      margin-left: 10px; }
+      main section .filtro ul li a {
+        font-size: 14px; } }
+
+main .portadasMangaCatalogo {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: content-box;
+  margin-bottom: 140px;
+  margin-top: 20px; }
+  main .portadasMangaCatalogo div {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 90px; }
+    main .portadasMangaCatalogo div img {
+      width: 300px;
+      height: 420px;
+      border: 3px solid #000;
+      box-sizing: content-box; }
+    main .portadasMangaCatalogo div p {
+      font-family: "Noto Sans",sans-serif;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 0; }
+    main .portadasMangaCatalogo div .precio {
+      font-size: 20px;
+      text-align: center; }
+
+@media all and (max-width: 1024px) {
+  main .portadasMangaCatalogo {
+    margin-left: 40px;
+    margin-top: 15px; }
+    main .portadasMangaCatalogo img {
+      width: 180px;
+      height: 280px;
+      border: 2px solid #000; } }
+
+@media screen and (max-width: 500px) {
+  main .portadasMangaCatalogo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-top: 5px; }
+    main .portadasMangaCatalogo div {
+      margin-top: 55px; }
+      main .portadasMangaCatalogo div img {
+        width: 180px;
+        height: 250px;
+        border: 2px solid #000; } }
+
+#mainPreventa {
+  display: inline; }
+  #mainPreventa #tituloPreventa {
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 45px; }
+  #mainPreventa .portadasPreventa {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 120px; }
+    #mainPreventa .portadasPreventa div {
+      margin: 45px 40px 20px 40px; }
+      #mainPreventa .portadasPreventa div p {
+        font-family: "Noto Sans",sans-serif;
+        font-size: 16px;
+        text-align: center; }
+      #mainPreventa .portadasPreventa div img {
+        width: 300px;
+        height: 440px;
+        border: 3px solid #000;
+        box-sizing: content-box; }
+      #mainPreventa .portadasPreventa div .contPrecios {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 0px 0px; }
+        #mainPreventa .portadasPreventa div .contPrecios .precioPreventa {
+          display: inline-block;
+          font-size: 20px; }
+        #mainPreventa .portadasPreventa div .contPrecios .precio {
+          display: inline;
+          font-size: 20px;
+          text-align: center;
+          text-decoration: line-through;
+          margin-right: 10px; }
+  @media all and (max-width: 1024px) {
+    #mainPreventa #tituloPreventa {
+      font-size: 30px; } }
+  @media screen and (max-width: 500px) {
+    #mainPreventa #tituloPreventa {
+      font-size: 24px; }
+    #mainPreventa #nombreLargo {
+      margin-left: 12px; }
+    #mainPreventa #nombreLargo2 {
+      margin-left: 58px; }
+    #mainPreventa .portadasPreventa {
+      justify-content: center; }
+      #mainPreventa .portadasPreventa div {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        margin-top: 30px; }
+        #mainPreventa .portadasPreventa div img {
+          width: 180px;
+          height: 250px;
+          border: 2px solid #000; } }
+
+main #gridMerch {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(6, 280px);
+  grid-template-areas: "merch1 merch2 merch3 merch4 merch5 merch6" "merch7 merch8 merch9 merch10 merch11 merch12";
+  justify-content: end;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 120px; }
+  main #gridMerch .merch1 {
+    grid-area: merch1;
+    justify-self: center; }
+  main #gridMerch .merch2 {
+    grid-area: merch2;
+    justify-self: center; }
+  main #gridMerch .merch3 {
+    grid-area: merch3;
+    justify-self: center; }
+  main #gridMerch .merch4 {
+    grid-area: merch4;
+    justify-self: center; }
+  main #gridMerch .merch5 {
+    grid-area: merch5;
+    justify-self: center; }
+  main #gridMerch .merch6 {
+    grid-area: merch6;
+    justify-self: center; }
+  main #gridMerch .merch7 {
+    grid-area: merch7;
+    justify-self: center; }
+  main #gridMerch .merch8 {
+    grid-area: merch8;
+    justify-self: center; }
+  main #gridMerch .merch9 {
+    grid-area: merch9;
+    justify-self: center; }
+  main #gridMerch .merch10 {
+    grid-area: merch10;
+    justify-self: center; }
+  main #gridMerch .merch11 {
+    grid-area: merch11;
+    justify-self: center; }
+  main #gridMerch .merch12 {
+    grid-area: merch12;
+    justify-self: center; }
+  main #gridMerch .merch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 85px;
+    margin-bottom: 30px; }
+    main #gridMerch .merch .precio {
+      font-size: 20px;
+      text-align: center; }
+    main #gridMerch .merch p {
+      font-family: "Noto Sans",sans-serif;
+      font-size: 16px;
+      text-align: center; }
+    main #gridMerch .merch img {
+      width: 200px;
+      height: 240px;
+      border: 2px solid black; }
+
+@media all and (max-width: 1024px) {
+  main #gridMerch {
+    grid-template-columns: repeat(3, 250px);
+    grid-template-areas: "merch1 merch2 merch3" "merch4 merch5 merch6" "merch7 merch8 merch9" "merch10 merch11 merch12";
+    margin-top: 50px;
+    margin-right: 100px; } }
+
+@media screen and (max-width: 500px) {
+  main #gridMerch {
+    grid-template-columns: repeat(2, 180px);
+    grid-template-areas: "merch1 merch2" "merch3 merch4" "merch5 merch6" "merch7 merch8" "merch9 merch10" "merch11 merch12";
+    justify-content: end;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px; }
+    main #gridMerch .merch {
+      margin-top: 57px; }
+      main #gridMerch .merch img {
+        width: 170px;
+        height: 200px;
+        align-items: center; } }
+
+main #formularioTitulo {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 8px; }
+
+main .formulario {
+  width: 780px;
+  margin-left: 8px; }
+  main .formulario .form-floating .mensaje {
+    height: 150px;
+    resize: none; }
+
+main .mapa {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  border: 3px solid #000;
+  width: 785px;
+  height: 400px;
+  margin-bottom: 200px; }
+  main .mapa iframe {
+    width: 778px;
+    height: 393px; }
+
+@media all and (max-width: 1024px) {
+  main #formularioTitulo {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  main .mapa {
+    top: 40px;
+    left: 10px;
+    width: 505px;
+    height: 320px;
+    margin-top: 20px; }
+    main .mapa iframe {
+      width: 498px;
+      height: 314px;
+      border: 3px solid #000; }
+  main .formulario {
+    width: 500px;
+    margin-left: 8px; }
+  main .form-floating .mensaje {
+    height: 150px;
+    resize: none; } }
+
+@media screen and (max-width: 500px) {
+  main .mapa {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    width: 445px;
+    height: 320px;
+    margin-top: 20px; }
+    main .mapa iframe {
+      width: 439px;
+      height: 312px;
+      border: 3px solid #000; }
+  main .formulario {
+    width: 445px;
+    margin-left: 8px; }
+  main .form-floating .mensaje {
+    height: 150px;
+    resize: none; } }

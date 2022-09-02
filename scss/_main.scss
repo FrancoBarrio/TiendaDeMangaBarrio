@@ -44,7 +44,7 @@ header
             padding-top: 50px;
             text-shadow: 2px 1px 4px rgb(0, 0, 0);
             display: block;
-            color: #E78D1E;
+            color: map-get($colores , "naranja" );
             /*h1*/
             background-image: url(../Resources/Imagenes/Otros/Banner.jpg);
             padding-bottom: 70px;

@@ -1,0 +1,12 @@
+@mixin imagenesIndex
+{
+    width: 300px;
+    height: 440px;
+    border: 3px solid #000;     
+}
+
+@mixin sizes ($height, $widht)
+{
+    height: $height;
+    width: $widht;
+}

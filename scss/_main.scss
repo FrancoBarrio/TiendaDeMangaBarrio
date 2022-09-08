@@ -44,13 +44,13 @@ header
             padding-top: 50px;
             text-shadow: 2px 1px 4px rgb(0, 0, 0);
             display: block;
-            color: map-get($colores , "naranja" );
+            color: map-get($colores , "naranja");
             /*h1*/
             background-image: url(../Resources/Imagenes/Otros/Banner.jpg);
             padding-bottom: 70px;
             background-position: center;
             margin-bottom: 0;
-            -webkit-text-stroke: 1px black;
+            -webkit-text-stroke: 1px map-get($colores , "negro");
             width: 100%;
         }
 
@@ -63,6 +63,16 @@ header
                 padding-bottom: 40px;
             }        
         }        
+
+        @media all and (max-width: 1024px)
+        {
+            .fuenteTitulo
+            {
+                font-size: 40px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }    
+        }
     }
 
     nav
@@ -197,3 +207,5 @@ footer
         }
     }
 }
+
+

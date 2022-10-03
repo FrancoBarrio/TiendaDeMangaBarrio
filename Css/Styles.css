@@ -130,7 +130,7 @@ header nav {
         margin-right: 10px;
         margin-left: 10px; }
         header nav .fuenteLista li .search {
-          width: 300px;
+          width: 200px;
           bottom: 0px;
           right: 20px; }
           header nav .fuenteLista li .search input {
@@ -144,7 +144,7 @@ header nav {
         header nav .fuenteLista li a {
           margin: 3px; }
         header nav .fuenteLista li .search {
-          width: 200px;
+          width: 180px;
           bottom: 0px;
           right: 20px; }
           header nav .fuenteLista li .search input {

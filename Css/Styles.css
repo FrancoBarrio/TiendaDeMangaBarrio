@@ -27,7 +27,6 @@ header div .fuenteTitulo {
   text-shadow: 2px 1px 4px black;
   display: block;
   color: #E78D1E;
-  /*h1*/
   background-image: url(../Resources/Imagenes/Otros/Banner.jpg);
   padding-bottom: 70px;
   background-position: center;
@@ -41,11 +40,11 @@ header div .fuenteTitulo {
     padding-top: 40px;
     padding-bottom: 40px; } }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 360px) {
   header div .fuenteTitulo {
     font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px; } }
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 
 header nav {
   background-color: #e78d1e; }
@@ -61,11 +60,11 @@ header nav {
       margin-bottom: 4px;
       margin-left: 60px; }
       header nav .fuenteLista li .search {
-        width: 400px;
+        width: 320px;
         position: relative;
         bottom: 3px; }
         header nav .fuenteLista li .search input {
-          margin-left: 390px; }
+          margin-left: 300px; }
       header nav .fuenteLista li a {
         text-decoration: none;
         color: #fff;
@@ -74,6 +73,56 @@ header nav {
           color: black; }
       header nav .fuenteLista li .activo {
         color: #000; }
+  @media all and (max-width: 1800px) {
+    header nav .fuenteLista {
+      font-size: 24px; }
+      header nav .fuenteLista li {
+        margin-right: 20px;
+        margin-left: 20px; }
+        header nav .fuenteLista li .search {
+          width: 300px;
+          bottom: 0px;
+          right: 20px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 340px; } }
+  @media all and (max-width: 1600px) {
+    header nav .fuenteLista {
+      font-size: 20px; }
+      header nav .fuenteLista li {
+        margin-right: 10px;
+        margin-left: 10px; }
+        header nav .fuenteLista li a {
+          margin-left: 10px; }
+        header nav .fuenteLista li .search {
+          width: 300px;
+          bottom: 0px;
+          right: 0px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 300px; } }
+  @media all and (max-width: 1360px) {
+    header nav .fuenteLista {
+      font-size: 18px; }
+      header nav .fuenteLista li {
+        margin-right: 10px;
+        margin-left: 10px; }
+        header nav .fuenteLista li .search {
+          width: 300px;
+          bottom: 0px;
+          right: 20px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 250px; } }
+  @media all and (max-width: 1200px) {
+    header nav .fuenteLista {
+      font-size: 18px; }
+      header nav .fuenteLista li {
+        margin-right: 10px;
+        margin-left: 10px; }
+        header nav .fuenteLista li .search {
+          width: 300px;
+          bottom: 0px;
+          right: 20px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 60px; } }
   @media all and (max-width: 1024px) {
     header nav .fuenteLista {
       font-size: 18px; }
@@ -86,21 +135,50 @@ header nav {
           right: 20px; }
           header nav .fuenteLista li .search input {
             margin-left: 60px; } }
-  @media screen and (max-width: 500px) {
+  @media all and (max-width: 768px) {
+    header nav .fuenteLista {
+      font-size: 16px; }
+      header nav .fuenteLista li {
+        margin-right: 10px;
+        margin-left: 0px; }
+        header nav .fuenteLista li a {
+          margin: 3px; }
+        header nav .fuenteLista li .search {
+          width: 200px;
+          bottom: 0px;
+          right: 20px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 30px; } }
+  @media all and (max-width: 500px) {
     header nav .fuenteLista {
       font-size: 14px;
       font-weight: 500; }
       header nav .fuenteLista li {
-        margin-right: 2px;
+        margin-right: 10px;
         margin-left: 10px; }
         header nav .fuenteLista li a {
           margin: 0px; }
         header nav .fuenteLista li .search {
-          width: 200px;
+          width: 170px;
           bottom: 3px; }
           header nav .fuenteLista li .search input {
-            margin-left: 160px;
-            height: 30px; } }
+            margin-left: 170px;
+            height: 25px; } }
+  @media all and (max-width: 360px) {
+    header nav .fuenteLista {
+      font-size: 12px;
+      font-weight: 500; }
+      header nav .fuenteLista li {
+        margin-right: 2px;
+        margin-left: 1px; }
+        header nav .fuenteLista li a {
+          margin: 0px; }
+        header nav .fuenteLista li .search {
+          width: 150px;
+          bottom: 3px; }
+          header nav .fuenteLista li .search input {
+            margin-left: 120px;
+            height: 25px; } }
 
 footer div {
   background-color: #E78D1E;
@@ -114,17 +192,37 @@ footer p {
   margin-left: 6px;
   color: #fff;
   text-shadow: 2px 2px 0px #000;
-  margin: 15px 130px 100px 230px; }
+  margin: 15px 130px 20px 230px; }
+
+@media all and (max-width: 1360px) {
+  footer p {
+    font-size: 20px;
+    margin: 15px 200px 50px 30px; } }
+
+@media all and (max-width: 1200px) {
+  footer p {
+    font-size: 20px;
+    margin: 15px 200px 50px 30px; } }
 
 @media all and (max-width: 1024px) {
   footer p {
     font-size: 16px;
-    margin: 15px 200px 100px 30px; } }
+    margin: 15px 200px 20px 30px; } }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 768px) {
   footer p {
-    font-size: 20px;
-    margin: 15px 30px 100px 30px; } }
+    font-size: 16px;
+    margin: 15px 100px 20px 10px; } }
+
+@media all and (max-width: 500px) {
+  footer p {
+    font-size: 16px;
+    margin: 15px 15px 40px 15px; } }
+
+@media all and (max-width: 360px) {
+  footer p {
+    font-size: 12px;
+    margin: 10px 5px 10px 8px; } }
 
 #grid {
   display: grid;
@@ -163,21 +261,70 @@ footer p {
       #grid .imgInicio .carousel .carrousel .carousel-item img {
         width: 1200px;
         height: 675px; }
+    @media all and (max-width: 1600px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 3px 0px 3px 0px solid black;
+        width: 1200px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          top: 588px;
+          right: 544px;
+          width: 110px;
+          height: 45px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 100vw; } }
+    @media all and (max-width: 1360px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 3px 0px 3px 0px solid black;
+        width: 1200px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          top: 588px;
+          right: 544px;
+          width: 110px;
+          height: 45px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 100vw; } }
+    @media all and (max-width: 1200px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 3px 0px 3px 0px solid black;
+        width: 100vw; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          top: 588px;
+          right: 541px;
+          width: 110px;
+          height: 45px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 100vw; } }
     @media all and (max-width: 1024px) {
       #grid .imgInicio .carousel .carrousel {
         border: 3px 0px 3px 0px solid black;
-        width: 1024px; }
+        width: 100vw; }
         #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
           top: 590px;
           right: 455px;
           width: 110px;
           height: 45px; }
         #grid .imgInicio .carousel .carrousel .carousel-item img {
-          width: 1024px; } }
-    @media screen and (max-width: 500px) {
+          width: 100vw; } }
+    @media all and (max-width: 768px) {
       #grid .imgInicio .carousel .carrousel {
         border: 2px 0px 2px 0px solid black;
-        width: 500px;
+        width: 100vw;
+        height: 460px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          display: inline;
+          position: absolute;
+          top: 378px;
+          right: 337px;
+          width: 90px;
+          height: 40px;
+          font-size: 16px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 1000vw;
+          height: 460px; } }
+    @media all and (max-width: 500px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 2px 0px 2px 0px solid black;
+        width: 100vw;
         height: 390px; }
         #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
           display: inline;
@@ -188,8 +335,24 @@ footer p {
           height: 40px;
           font-size: 16px; }
         #grid .imgInicio .carousel .carrousel .carousel-item img {
-          width: 500px;
+          width: 1000vw;
           height: 390px; } }
+    @media all and (max-width: 360px) {
+      #grid .imgInicio .carousel .carrousel {
+        border: 2px 0px 2px 0px solid black;
+        width: 100vw;
+        height: 340px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item .btnCompra {
+          display: inline-flex;
+          position: absolute;
+          top: 264px;
+          right: 136px;
+          width: 86px;
+          height: 36px;
+          font-size: 16px; }
+        #grid .imgInicio .carousel .carrousel .carousel-item img {
+          width: 100vw;
+          height: 340px; } }
   #grid #novedadesManga {
     grid-area: novedadesManga;
     font-family: "Oswald", sans-serif;
@@ -242,6 +405,153 @@ footer p {
         font-family: "Noto Sans",sans-serif;
         font-size: 16px;
         text-align: center; }
+  @media all and (max-width: 1800px) {
+    #grid #novedadesManga {
+      display: inline-flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: inline-flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga, #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0; }
+      #grid .portadasManga div, #grid .portadasComics div {
+        margin: 0px; }
+        #grid .portadasManga div img, #grid .portadasComics div img {
+          width: 300px;
+          height: 440px;
+          border: 3px solid #000;
+          margin-left: 46px;
+          margin-top: 50px;
+          margin-right: 46px; }
+        #grid .portadasManga div .precio, #grid .portadasComics div .precio {
+          font-size: 20px;
+          text-align: center; }
+        #grid .portadasManga div p, #grid .portadasComics div p {
+          font-family: "Noto Sans",sans-serif;
+          font-size: 16px;
+          text-align: center; } }
+  @media all and (max-width: 1600px) {
+    #grid #novedadesManga {
+      display: inline-flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: inline-flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga, #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #grid .portadasManga div, #grid .portadasComics div {
+        margin: 0px; }
+        #grid .portadasManga div img, #grid .portadasComics div img {
+          width: 300px;
+          height: 440px;
+          border: 3px solid #000;
+          margin-left: 46px;
+          margin-top: 50px;
+          margin-right: 46px; }
+        #grid .portadasManga div .precio, #grid .portadasComics div .precio {
+          font-size: 20px;
+          text-align: center; }
+        #grid .portadasManga div p, #grid .portadasComics div p {
+          font-family: "Noto Sans",sans-serif;
+          font-size: 16px;
+          text-align: center; } }
+  @media all and (max-width: 1360px) {
+    #grid #novedadesManga {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga, #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #grid .portadasManga div, #grid .portadasComics div {
+        margin-left: 40px; }
+        #grid .portadasManga div img, #grid .portadasComics div img {
+          width: 300px;
+          height: 440px;
+          border: 3px solid #000;
+          margin-top: 50px;
+          margin-right: 70px; }
+        #grid .portadasManga div .precio, #grid .portadasComics div .precio {
+          font-size: 20px;
+          text-align: center;
+          margin-bottom: 40px; }
+        #grid .portadasManga div p, #grid .portadasComics div p {
+          font-family: "Noto Sans",sans-serif;
+          font-size: 16px;
+          text-align: center; } }
+  @media all and (max-width: 1200px) {
+    #grid #novedadesManga {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga, #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #grid .portadasManga div, #grid .portadasComics div {
+        margin-left: 40px; }
+        #grid .portadasManga div img, #grid .portadasComics div img {
+          width: 300px;
+          height: 440px;
+          border: 3px solid #000;
+          margin-top: 50px;
+          margin-right: 80px; }
+        #grid .portadasManga div .precio, #grid .portadasComics div .precio {
+          font-size: 20px;
+          text-align: center; }
+        #grid .portadasManga div p, #grid .portadasComics div p {
+          font-family: "Noto Sans",sans-serif;
+          font-size: 16px;
+          text-align: center; }
+    #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #grid .portadasComics div {
+        margin-left: 40px; }
+        #grid .portadasComics div img {
+          width: 300px;
+          height: 440px;
+          border: 3px solid #000;
+          margin-top: 20px;
+          margin-right: 80px; }
+        #grid .portadasComics div .precio {
+          font-size: 20px;
+          text-align: center; }
+        #grid .portadasComics div p {
+          font-family: "Noto Sans",sans-serif;
+          font-size: 16px;
+          text-align: center; } }
   @media all and (max-width: 1024px) {
     #grid #novedadesManga {
       display: flex;
@@ -274,7 +584,51 @@ footer p {
         height: 300px;
         margin-left: 20px;
         margin-top: 20px; } }
-  @media screen and (max-width: 500px) {
+  @media all and (max-width: 768px) {
+    #grid #novedadesManga {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px; }
+    #grid #novedadesComics {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      margin-left: 0px;
+      margin-top: 50px; }
+    #grid .portadasManga, #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #grid .portadasManga div, #grid .portadasComics div {
+        margin-right: 21px;
+        margin-top: 35px;
+        margin-left: 20px; }
+        #grid .portadasManga div img, #grid .portadasComics div img {
+          width: 240px;
+          height: 352px;
+          margin: 0; }
+        #grid .portadasManga div p, #grid .portadasComics div p {
+          font-size: 16px; }
+        #grid .portadasManga div .precio, #grid .portadasComics div .precio {
+          font-size: 20px; }
+    #grid .portadasComics {
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      #grid .portadasComics div {
+        margin-right: 21px;
+        margin-top: 35px;
+        margin-left: 20px; }
+        #grid .portadasComics div img {
+          width: 240px;
+          height: 352px;
+          margin: 0; }
+        #grid .portadasComics div p {
+          font-size: 16px; }
+        #grid .portadasComics div .precio {
+          font-size: 20px; } }
+  @media all and (max-width: 500px) {
     #grid #novedadesManga {
       display: flex;
       justify-content: center;
@@ -341,6 +695,54 @@ main section .filtro {
         main section .filtro ul li a:hover {
           color: #E78D1E; }
 
+@media all and (max-width: 1800px) {
+  main section .filtro {
+    top: 320px;
+    margin-left: 0px; }
+    main section .filtro ul {
+      margin-left: 0px; }
+      main section .filtro ul li {
+        list-style-type: none;
+        margin-bottom: 14px; }
+        main section .filtro ul li a {
+          font-size: 20px; } }
+
+@media all and (max-width: 1600px) {
+  main section .filtro {
+    top: 320px;
+    margin-left: 0px; }
+    main section .filtro ul {
+      margin-left: 0px; }
+      main section .filtro ul li {
+        list-style-type: none;
+        margin-bottom: 14px; }
+        main section .filtro ul li a {
+          font-size: 20px; } }
+
+@media all and (max-width: 1360px) {
+  main section .filtro {
+    top: 320px;
+    margin-left: 0px; }
+    main section .filtro ul {
+      margin-left: 0px; }
+      main section .filtro ul li {
+        list-style-type: none;
+        margin-bottom: 14px; }
+        main section .filtro ul li a {
+          font-size: 20px; } }
+
+@media all and (max-width: 1200px) {
+  main section .filtro {
+    top: 320px;
+    margin-left: 0px; }
+    main section .filtro ul {
+      margin-left: 0px; }
+      main section .filtro ul li {
+        list-style-type: none;
+        margin-bottom: 14px; }
+        main section .filtro ul li a {
+          font-size: 20px; } }
+
 @media all and (max-width: 1024px) {
   main section .filtro {
     top: 320px;
@@ -353,7 +755,7 @@ main section .filtro {
         main section .filtro ul li a {
           font-size: 20px; } }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
   main section .filtro {
     position: absolute;
     top: 270px; }
@@ -389,6 +791,33 @@ main .portadasMangaCatalogo {
       font-size: 20px;
       text-align: center; }
 
+@media all and (max-width: 1600px) {
+  main .portadasMangaCatalogo {
+    margin-left: 100px;
+    margin-top: 7px; }
+    main .portadasMangaCatalogo img {
+      width: 180px;
+      height: 280px;
+      border: 2px solid #000; } }
+
+@media all and (max-width: 1360px) {
+  main .portadasMangaCatalogo {
+    margin-left: 100px;
+    margin-top: 7px; }
+    main .portadasMangaCatalogo img {
+      width: 180px;
+      height: 280px;
+      border: 2px solid #000; } }
+
+@media all and (max-width: 1200px) {
+  main .portadasMangaCatalogo {
+    margin-left: 100px;
+    margin-top: 7px; }
+    main .portadasMangaCatalogo img {
+      width: 180px;
+      height: 280px;
+      border: 2px solid #000; } }
+
 @media all and (max-width: 1024px) {
   main .portadasMangaCatalogo {
     margin-left: 40px;
@@ -398,7 +827,23 @@ main .portadasMangaCatalogo {
       height: 280px;
       border: 2px solid #000; } }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 768px) {
+  main .portadasMangaCatalogo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-top: 5px; }
+    main .portadasMangaCatalogo div {
+      margin-top: 120px; }
+      main .portadasMangaCatalogo div img {
+        width: 190px;
+        height: 260px;
+        border: 2px solid #000; } }
+
+@media all and (max-width: 500px) {
   main .portadasMangaCatalogo {
     display: inline-flex;
     flex-wrap: wrap;
@@ -409,6 +854,22 @@ main .portadasMangaCatalogo {
     margin-top: 5px; }
     main .portadasMangaCatalogo div {
       margin-top: 55px; }
+      main .portadasMangaCatalogo div img {
+        width: 180px;
+        height: 250px;
+        border: 2px solid #000; } }
+
+@media all and (max-width: 360px) {
+  main .portadasMangaCatalogo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-top: 5px; }
+    main .portadasMangaCatalogo div {
+      margin-top: 83px; }
       main .portadasMangaCatalogo div img {
         width: 180px;
         height: 250px;
@@ -539,6 +1000,46 @@ main #gridMerch {
       height: 240px;
       border: 2px solid black; }
 
+@media all and (max-width: 1800px) {
+  main #gridMerch {
+    grid-template-columns: repeat(6, 270px);
+    grid-template-areas: "merch1 merch2 merch3 merch4 merch5 merch6" "merch7 merch8 merch9 merch10 merch11 merch12";
+    margin-top: 20px;
+    margin-right: 0px; }
+    main #gridMerch .merch {
+      margin-top: 90px;
+      margin-left: 0px; }
+      main #gridMerch .merch img {
+        width: 170px;
+        height: 200px; } }
+
+@media all and (max-width: 1600px) {
+  main #gridMerch {
+    grid-template-columns: repeat(6, 240px);
+    grid-template-areas: "merch1 merch2 merch3 merch4 merch5 merch6" "merch7 merch8 merch9 merch10 merch11 merch12";
+    margin-top: 30px;
+    margin-right: 0px; }
+    main #gridMerch .merch {
+      margin-top: 90px;
+      margin-left: 0px; }
+      main #gridMerch .merch img {
+        width: 170px;
+        height: 200px; } }
+
+@media all and (max-width: 1360px) {
+  main #gridMerch {
+    grid-template-columns: repeat(4, 250px);
+    grid-template-areas: "merch1 merch2 merch3 merch4" "merch5 merch6 merch7 merch8" " merch9 merch10 merch11 merch12";
+    margin-top: 30px;
+    margin-right: 100px; } }
+
+@media all and (max-width: 1200px) {
+  main #gridMerch {
+    grid-template-columns: repeat(4, 250px);
+    grid-template-areas: "merch1 merch2 merch3 merch4" "merch5 merch6 merch7 merch8" " merch9 merch10 merch11 merch12";
+    margin-top: 30px;
+    margin-right: 40px; } }
+
 @media all and (max-width: 1024px) {
   main #gridMerch {
     grid-template-columns: repeat(3, 250px);
@@ -546,16 +1047,46 @@ main #gridMerch {
     margin-top: 60px;
     margin-right: 100px; } }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 768px) {
   main #gridMerch {
     grid-template-columns: repeat(2, 180px);
     grid-template-areas: "merch1 merch2" "merch3 merch4" "merch5 merch6" "merch7 merch8" "merch9 merch10" "merch11 merch12";
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 10px; }
+    main #gridMerch .merch {
+      margin-top: 61px;
+      margin-right: 50px; }
+      main #gridMerch .merch img {
+        width: 170px;
+        height: 200px; } }
+
+@media all and (max-width: 500px) {
+  main #gridMerch {
+    grid-template-columns: repeat(2, 175px);
+    grid-template-areas: "merch1 merch2" "merch3 merch4" "merch5 merch6" "merch7 merch8" "merch9 merch10" "merch11 merch12";
+    justify-content: end;
+    margin-top: 0px;
+    margin-left: 00px;
+    margin-right: 0px; }
+    main #gridMerch .merch {
+      margin-top: 61px; }
+      main #gridMerch .merch img {
+        width: 170px;
+        height: 200px; } }
+
+@media all and (max-width: 360px) {
+  main #gridMerch {
+    grid-template-columns: repeat(1, 180px);
+    grid-template-areas: "merch1" "merch2" "merch3" "merch4" "merch5" "merch6" "merch7" "merch8" "merch9" "merch10" "merch11" "merch12";
     justify-content: end;
     margin-top: 0px;
     margin-left: 0px;
-    margin-right: 10px; }
+    margin-right: 30px; }
     main #gridMerch .merch {
-      margin-top: 57px; }
+      margin-top: 90px;
+      margin-left: 0px; }
       main #gridMerch .merch img {
         width: 170px;
         height: 200px;
@@ -607,21 +1138,43 @@ main .mapa {
     height: 150px;
     resize: none; } }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
   main .mapa {
     position: relative;
     top: 40px;
-    left: 10px;
-    width: 445px;
+    left: 0px;
+    width: 100vw;
     height: 320px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    border: 0px; }
     main .mapa iframe {
-      width: 439px;
-      height: 312px;
-      border: 3px solid #000; }
+      width: 100vw;
+      height: 312px; }
   main .formulario {
-    width: 445px;
-    margin-left: 8px; }
+    width: 100vw;
+    margin-left: 0px; }
+  main .form-floating .mensaje {
+    height: 150px;
+    resize: none; } }
+
+@media all and (max-width: 360px) {
+  main #formularioTitulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1px; }
+  main .mapa {
+    top: 40px;
+    left: 0px;
+    width: 100vw;
+    height: 320px;
+    margin-top: 20px;
+    border: 0px solid #000; }
+    main .mapa iframe {
+      width: 100vw;
+      height: 314px; }
+  main .formulario {
+    width: 100vw;
+    margin-left: 0px; }
   main .form-floating .mensaje {
     height: 150px;
     resize: none; } }

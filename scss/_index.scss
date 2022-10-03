@@ -57,45 +57,168 @@
                 }
             }
             
-    
-        @media all and (max-width: 1024px)
+
+        
+
+        @media all and (max-width: 1600px)
         {
             .carousel
-            {
-                .carrousel
                 {
-                    border: 3px 0px 3px 0px solid black;
-                    width: 1024px;
-                    
-                    .carousel-item
+                    .carrousel
                     {
-                        .btnCompra
+                        border: 3px 0px 3px 0px solid black;
+                        width: 1200px;
+                        
+                        .carousel-item
                         {
-                            top: 590px;
-                            right: 455px;
-                            width: 110px;
-                            height: 45px;
+                            .btnCompra
+                            {
+                                top: 588px;
+                                right: 544px;
+                                width: 110px;
+                                height: 45px;
+                            }
+                        
+                            img
+                            {
+                                width: 100vw;
+                            }  
                         }
-                    
-                        img
-                        {
-                            width: 1024px;
-                        }  
+                                                
                     }
-                    
-                
                 }
-            }
-            
         }
-        @media screen and (max-width: 500px)
+
+        @media all and (max-width: 1360px)
+        {
+            .carousel
+                {
+                    .carrousel
+                    {
+                        border: 3px 0px 3px 0px solid black;
+                        width: 1200px;
+                        
+                        .carousel-item
+                        {
+                            .btnCompra
+                            {
+                                top: 588px;
+                                right: 544px;
+                                width: 110px;
+                                height: 45px;
+                            }
+                        
+                            img
+                            {
+                                width: 100vw;
+                            }  
+                        }
+                                                
+                    }
+                }
+        }    
+
+        @media all and (max-width: 1200px)
+        {
+            .carousel
+                {
+                    .carrousel
+                    {
+                        border: 3px 0px 3px 0px solid black;
+                        width: 100vw;
+                        
+                        .carousel-item
+                        {
+                            .btnCompra
+                            {
+                                top: 588px;
+                                right: 541px;
+                                width: 110px;
+                                height: 45px;
+                            }
+                        
+                            img
+                            {
+                                width: 100vw;
+                            }  
+                        }
+                                                
+                    }
+                }
+        }
+        
+        @media all and (max-width: 1024px)
+        {
+                .carousel
+                {
+                    .carrousel
+                    {
+                        border: 3px 0px 3px 0px solid black;
+                        width: 100vw;
+                        
+                        .carousel-item
+                        {
+                            .btnCompra
+                            {
+                                top: 590px;
+                                right: 455px;
+                                width: 110px;
+                                height: 45px;                                
+                            }
+                        
+                            img
+                            {
+                                width: 100vw;
+                            }  
+                        }
+                        
+                    }
+                }
+                
+        }
+            
+        @media all and (max-width: 768px)
         {
             .carousel
             {
                 .carrousel
                 {
                     border: 2px 0px 2px 0px solid black;
-                    width: 500px;
+                    width: 100vw;
+                    height: 460px;
+
+                    .carousel-item
+                    {
+                        .btnCompra
+                        {
+                            display: inline;
+                            position: absolute;
+                            top: 378px;
+                            right: 337px;
+                            width: 90px;
+                            height: 40px;
+                            font-size: 16px;
+                        }
+                    
+                        img
+                        {
+                            width: 1000vw;
+                            height: 460px;
+                        }  
+                    }
+                
+                }
+            }
+        }
+
+        @media all and (max-width: 500px)
+        {
+            .carousel
+            {
+                .carrousel
+                {
+                    border: 2px 0px 2px 0px solid black;
+                    width: 100vw;
                     height: 390px;
 
                     .carousel-item
@@ -113,7 +236,7 @@
                     
                         img
                         {
-                            width: 500px;
+                            width: 1000vw;
                             height: 390px;
                         }  
                     }
@@ -122,6 +245,46 @@
             }
             
         }
+        
+        @media all and (max-width: 360px)
+        {
+            .carousel
+            {
+                .carrousel
+                {
+                    border: 2px 0px 2px 0px solid black;
+                    width: 100vw;
+                    height: 340px;
+
+                    .carousel-item
+                    {
+                        
+                        .btnCompra
+                        {
+                            display: inline-flex;
+                            position: absolute;
+                            top: 264px;
+                            right: 136px;
+                            width: 86px;
+                            height: 36px;
+                            font-size: 16px;
+                        }
+                    
+                        img
+                        {
+                            width: 100vw;
+                            height: 340px;
+                        }  
+                    }
+                
+                }
+            }
+
+           
+        }
+        
+        
+              
     }
 
     #novedadesManga
@@ -210,60 +373,395 @@
         }
     }
 
+    @media all and (max-width: 1800px)
+    {
+        #novedadesManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+        }
+
+        #novedadesComics
+        {
+            display: inline-flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+
+        .portadasManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0;
+            
+            div
+            {
+                margin: 0px;
+                img
+                {
+                    width: 300px;
+                    height: 440px;
+                    border: 3px solid #000;   
+                    margin-left: 46px;
+                    margin-top: 50px;
+                    margin-right: 46px;
+                }  
+
+                .precio
+                {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                p
+                {
+                    font-family: "Noto Sans",sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+    @media all and (max-width: 1600px)
+    {
+        #novedadesManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+        }
+
+        #novedadesComics
+        {
+            display: inline-flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+
+        .portadasManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            div
+            {
+                margin: 0px;
+                img
+                {
+                    width: 300px;
+                    height: 440px;
+                    border: 3px solid #000;   
+                    margin-left: 46px;
+                    margin-top: 50px;
+                    margin-right: 46px;
+                }  
+
+                .precio
+                {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                p
+                {
+                    font-family: "Noto Sans",sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    @media all and (max-width: 1360px)
+    {
+        #novedadesManga
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+        }
+
+        #novedadesComics
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+
+        .portadasManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            div
+            {               
+                margin-left: 40px;
+
+                img
+                {
+                    width: 300px;
+                    height: 440px;
+                    border: 3px solid #000;                       
+                    margin-top: 50px;
+                    margin-right: 70px;
+                }  
+
+                .precio
+                {
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+
+                p
+                {
+                    font-family: "Noto Sans",sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+
+        
+    }
+    
+    @media all and (max-width: 1200px)
+    {
+        #novedadesManga
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+        }
+
+        #novedadesComics
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+
+        .portadasManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            div
+            {
+                margin-left: 40px;
+                img
+                {
+                    width: 300px;
+                    height: 440px;
+                    border: 3px solid #000;   
+                    margin-top: 50px;
+                    margin-right: 80px;
+                }  
+
+                .precio
+                {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                p
+                {
+                    font-family: "Noto Sans",sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+            
+        }
+
+        .portadasComics
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            div
+            {
+                margin-left: 40px;
+                img
+                {
+                    width: 300px;
+                    height: 440px;
+                    border: 3px solid #000;   
+                    margin-top: 20px;
+                    margin-right: 80px;
+                }  
+
+                .precio
+                {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                p
+                {
+                    font-family: "Noto Sans",sans-serif;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+
     @media all and (max-width: 1024px)
     {
-            #novedadesManga
+        #novedadesManga
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+        }
+
+        #novedadesComics
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+
+        .portadasManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-left: 0px;
+
+            img
             {
-                display: flex;
-                justify-content: center;
-                font-size: 32px;
-                margin-left: 0px;
+                width: 190px;
+                height: 300px;
+                margin-left: 20px;
+                margin-top: 20px;
             }
+        }
 
-            #novedadesComics
+        .portadasComics
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-left: 0px;
+
+            img
             {
-                display: flex;
-                justify-content: center;
-                font-size: 32px;
-                margin-left: 0px;
-                margin-top: 50px;
+                width: 190px;
+                height: 300px;
+                margin-left: 20px;
+                margin-top: 20px;
             }
-
-            .portadasManga
-            {
-                display: inline-flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin-left: 0px;
-
-                img
-                {
-                    width: 190px;
-                    height: 300px;
-                    margin-left: 20px;
-                    margin-top: 20px;
-                }
-            }
-
-            .portadasComics
-            {
-                display: inline-flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin-left: 0px;
-
-                img
-                {
-                    width: 190px;
-                    height: 300px;
-                    margin-left: 20px;
-                    margin-top: 20px;
-                }
-            }
+        }
 
     }
 
-    @media screen and (max-width: 500px)
+    @media all and (max-width: 768px)
+    {
+        #novedadesManga
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+        }
+
+        #novedadesComics
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+
+        .portadasManga
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            div
+            {                
+                margin-right: 21px;
+                margin-top: 35px;
+                margin-left: 20px;
+                
+                img
+                {
+                    width: 240px;
+                    height: 352px;
+                    margin: 0;
+                }
+            
+                p
+                {
+                    font-size: 16px;
+                }
+                .precio
+                {
+                    font-size: 20px;
+                }
+            }
+                      
+        }
+
+        .portadasComics
+        {
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            div
+            {                
+                margin-right: 21px;
+                margin-top: 35px;
+                margin-left: 20px;
+                
+                img
+                {
+                    width: 240px;
+                    height: 352px;
+                    margin: 0;
+                }
+            
+                p
+                {
+                    font-size: 16px;
+                }
+                .precio
+                {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    @media all and (max-width: 500px)
     {
         #novedadesManga
         {
@@ -337,4 +835,6 @@
         }
         
     }
+    
+    
 }

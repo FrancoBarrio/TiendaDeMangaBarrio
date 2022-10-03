@@ -57,6 +57,89 @@ main
         }
 
     }
+
+    @media all and (max-width: 1800px)
+    {
+                
+        #gridMerch
+        {
+            grid-template-columns: repeat(6,270px);
+            grid-template-areas:"merch1 merch2 merch3 merch4 merch5 merch6"
+                                "merch7 merch8 merch9 merch10 merch11 merch12";
+            margin-top: 20px;
+            margin-right: 0px;
+            
+
+            .merch
+            {
+                margin-top: 90px;
+                margin-left: 0px;
+
+                img
+                {
+                    width: 170px;
+                    height: 200px;
+                }
+            }
+
+        }
+    }
+
+    @media all and (max-width: 1600px)
+    {
+                
+        #gridMerch
+        {
+            grid-template-columns: repeat(6,240px);
+            grid-template-areas:"merch1 merch2 merch3 merch4 merch5 merch6"
+                                "merch7 merch8 merch9 merch10 merch11 merch12";
+            margin-top: 30px;
+            margin-right: 0px;
+            
+
+            .merch
+            {
+                margin-top: 90px;
+                margin-left: 0px;
+
+                img
+                {
+                    width: 170px;
+                    height: 200px;
+                }
+            }
+
+        }
+    }
+
+    @media all and (max-width: 1360px)
+    {
+        #gridMerch
+        {
+            grid-template-columns: repeat(4, 250px);
+            grid-template-areas:"merch1 merch2 merch3 merch4"
+                                 "merch5 merch6 merch7 merch8"
+                                " merch9 merch10 merch11 merch12"
+                                ;
+            margin-top: 30px;
+            margin-right: 100px;
+        }
+    }
+
+    @media all and (max-width: 1200px)
+    {
+        #gridMerch
+        {
+            grid-template-columns: repeat(4, 250px);
+            grid-template-areas:"merch1 merch2 merch3 merch4"
+                                 "merch5 merch6 merch7 merch8"
+                                " merch9 merch10 merch11 merch12"
+                                ;
+            margin-top: 30px;
+            margin-right: 40px;
+        }
+    }
+
     @media all and (max-width: 1024px)
     {
         #gridMerch
@@ -68,11 +151,12 @@ main
                                 "merch10 merch11 merch12";
             margin-top: 60px;
             margin-right: 100px;
+            
         }
 
     }
 
-    @media screen and (max-width: 500px)
+    @media all and (max-width: 768px)
     {
         #gridMerch
         {
@@ -83,14 +167,80 @@ main
                                 "merch7 merch8"
                                 "merch9 merch10"
                                 "merch11 merch12";
-            justify-content: end;
-            margin-top: 0px;
-            margin-left: 0px;
+            justify-content: center;
+            margin-top: 70px;
+            margin-left: 40px;
             margin-right: 10px;
             
             .merch
             {
-                margin-top: 57px;
+                margin-top: 61px;
+                margin-right: 50px;
+
+                img
+                {
+                    width: 170px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    @media all and (max-width: 500px)
+    {
+        #gridMerch
+        {
+            grid-template-columns: repeat(2, 175px);
+            grid-template-areas:"merch1 merch2"
+                                "merch3 merch4"
+                                "merch5 merch6"
+                                "merch7 merch8"
+                                "merch9 merch10"
+                                "merch11 merch12";
+            justify-content: end;
+            margin-top: 0px;
+            margin-left: 00px;
+            margin-right: 0px;
+            
+            .merch
+            {
+                margin-top: 61px;
+
+                img
+                {
+                    width: 170px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    @media all and (max-width: 360px)
+    {
+        #gridMerch
+        {
+            grid-template-columns: repeat(1, 180px);;
+            grid-template-areas:"merch1"
+                                "merch2"
+                                "merch3"
+                                "merch4"
+                                "merch5"
+                                "merch6"
+                                "merch7"
+                                "merch8"
+                                "merch9"
+                                "merch10"
+                                "merch11"
+                                "merch12";
+            justify-content: end;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 30px;
+            
+            .merch
+            {
+                margin-top: 90px;
+                margin-left: 0px;
 
                 img
                 {

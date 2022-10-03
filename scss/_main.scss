@@ -45,7 +45,6 @@ header
             text-shadow: 2px 1px 4px rgb(0, 0, 0);
             display: block;
             color: map-get($colores , "naranja");
-            /*h1*/
             background-image: url(../Resources/Imagenes/Otros/Banner.jpg);
             padding-bottom: 70px;
             background-position: center;
@@ -64,15 +63,16 @@ header
             }        
         }        
 
-        @media all and (max-width: 1024px)
+        @media all and (max-width: 360px)
         {
             .fuenteTitulo
             {
                 font-size: 40px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }    
-        }
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }        
+        }        
+
     }
 
     nav
@@ -93,10 +93,10 @@ header
                 margin-left: 60px;
                 .search
                 {
-                    width: 400px;
+                    width: 320px;
                     position: relative;
                     bottom: 3px;
-                    input{margin-left: 390px;}
+                    input{margin-left: 300px;}
                 }
                 a
                 {
@@ -111,6 +111,118 @@ header
                 }
             }
         }
+        
+        @media all and (max-width: 1800px)
+        {
+            .fuenteLista
+            {
+              font-size: 24px;
+              
+              li
+                {
+                    margin-right: 20px;
+                    margin-left: 20px;
+            
+                    .search
+                    {
+                        width: 300px;
+                        bottom: 0px;
+                        right: 20px;
+                    
+                        input
+                        {
+                            margin-left: 340px;
+                        }
+                    }  
+                }
+            }
+        }
+
+        @media all and (max-width: 1600px)
+        {
+            .fuenteLista
+            {
+              font-size: 20px;
+              
+                li
+                {
+                    margin-right: 10px;
+                    margin-left: 10px;                   
+
+                    a
+                    {
+                        margin-left: 10px;
+                    }
+            
+                    .search
+                    {
+                        width: 300px;
+                        bottom: 0px;
+                        right: 0px;
+
+                    
+                        input
+                        {
+                            margin-left: 300px;
+                        }
+                    }  
+                }
+                           
+            }
+        }
+
+        @media all and (max-width: 1360px)
+        {
+            .fuenteLista
+            {
+              font-size: 18px;
+              
+              li
+                {
+                    margin-right: 10px;
+                    margin-left: 10px;
+            
+                    .search
+                    {
+                        width: 300px;
+                        bottom: 0px;
+                        right: 20px;
+                    
+                        input
+                        {
+                            margin-left: 250px;
+                        }
+                    }  
+                }
+            }
+        }
+
+        @media all and (max-width: 1200px)
+        {
+            .fuenteLista
+            {
+              font-size: 18px;
+              
+              li
+                {
+                    margin-right: 10px;
+                    margin-left: 10px;
+            
+                    .search
+                    {
+                        width: 300px;
+                        bottom: 0px;
+                        right: 20px;
+                    
+                        input
+                        {
+                            margin-left: 60px;
+                        }
+                    }  
+                }
+            }
+        }
+        
         @media all and (max-width: 1024px)
         {
             .fuenteLista
@@ -138,7 +250,38 @@ header
                          
         }
 
-        @media screen and (max-width: 500px)
+        @media all and (max-width: 768px)
+        {
+            .fuenteLista
+            {
+              font-size: 16px;
+              
+              li
+                {
+                    margin-right: 10px;
+                    margin-left: 0px;
+            
+                    a
+                    {
+                        margin: 3px;
+                    }
+
+                    .search
+                    {
+                        width: 200px;
+                        bottom: 0px;
+                        right: 20px;
+                    
+                        input
+                        {
+                            margin-left: 30px;
+                        }
+                    }  
+                }
+            }          
+        }
+
+        @media all and (max-width: 500px)
         {
             .fuenteLista
             {
@@ -147,7 +290,7 @@ header
 
                 li
                 {
-                    margin-right: 2px;
+                    margin-right: 10px;
                     margin-left: 10px;  
                     a
                     {
@@ -155,17 +298,49 @@ header
                     }
                     .search
                     {
-                        width: 200px;
+                        width: 170px;
                         bottom: 3px;
                         input
                         {
-                            margin-left: 160px;
-                            height: 30px;
+                            margin-left: 170px;
+                            height: 25px;
                         }
                     }
                 }
             }
         }
+
+        @media all and (max-width: 360px)
+        {
+            .fuenteLista
+            {
+                font-size: 12px;
+                font-weight: 500;
+
+                li
+                {
+                    margin-right: 2px;
+                    margin-left: 1px;  
+                    a
+                    {
+                        margin: 0px;
+                    }
+                    .search
+                    {
+                        width: 150px;
+                        bottom: 3px;
+                        input
+                        {
+                            margin-left: 120px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
     }
 }
 
@@ -186,26 +361,63 @@ footer
         margin-left: 6px;
         color: #fff;
         text-shadow: 2px 2px 0px #000;
-        margin: 15px 130px 100px 230px;
+        margin: 15px 130px 20px 230px;
     }
 
+    @media all and (max-width: 1360px)
+    {
+        p
+        {
+            font-size: 20px;
+            margin: 15px 200px 50px 30px;
+        }
+    }
+
+    @media all and (max-width: 1200px)
+    {
+        p
+        {
+            font-size: 20px;
+            margin: 15px 200px 50px 30px;
+        }
+    }
+    
     @media all and (max-width: 1024px)
     {
         p
         {
             font-size: 16px;
-            margin: 15px 200px 100px 30px;
+            margin: 15px 200px 20px 30px;
         }
-    }
+    }  
 
-    @media screen and (max-width: 500px)
+    @media all and (max-width: 768px)
     {
         p
         {
-            font-size: 20px;
-            margin: 15px 30px 100px 30px;
+            font-size: 16px;
+            margin: 15px 100px 20px 10px;
         }
     }
+
+    @media all and (max-width: 500px)
+    {
+        p
+        {
+            font-size: 16px;
+            margin: 15px 15px 40px 15px;
+        }
+    }
+    
+    @media all and (max-width: 360px)
+    {
+        p
+        {
+            font-size: 12px;
+            margin: 10px 5px 10px 8px;
+        }
+    }
+    
 }
 
 

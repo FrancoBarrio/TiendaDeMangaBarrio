@@ -2,10 +2,10 @@ main
 {
     #formularioTitulo
     {
-    font-family: "Oswald", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    margin-left: 8px;
+        font-family: "Oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 8px;
     }
   
     .formulario
@@ -36,6 +36,8 @@ main
             height: 393px;
         }
     }
+
+    
 
     @media all and (max-width: 1024px)
     {
@@ -74,29 +76,67 @@ main
         }
     }
 
-    @media screen and (max-width: 500px)
+    @media all and (max-width: 500px)
     {
         .mapa
         {
             position: relative;
             top: 40px;
-            left: 10px;
-            width: 445px;
+            left: 0px;
+            width: 100vw;
             height: 320px;
             margin-top: 20px;
+            border: 0px;
 
             iframe
             {
-                width: 439px;
+                width: 100vw;
                 height: 312px;
-                border: 3px solid #000 ;
             }
         }
 
         .formulario
         {
-            width: 445px;
-            margin-left: 8px;
+            width: 100vw;
+            margin-left: 0px;
+        }
+
+        .form-floating .mensaje
+        {
+            height:150px;
+            resize: none;
+        }
+    }
+
+    @media all and (max-width: 360px)
+    {
+        #formularioTitulo
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 1px;
+        }
+
+        .mapa
+        {
+            top: 40px;
+            left: 0px;
+            width: 100vw;
+            height: 320px;
+            margin-top: 20px;
+            border: 0px solid #000;
+
+            iframe
+            {
+                width: 100vw;
+                height: 314px;                
+            }
+        }
+
+        .formulario
+        {
+            width: 100vw;
+            margin-left: 0px;
         }
 
         .form-floating .mensaje

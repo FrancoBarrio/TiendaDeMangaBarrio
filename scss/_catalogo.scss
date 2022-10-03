@@ -30,7 +30,7 @@ main
                     margin-bottom: 18px;
                     margin-top: 15px;
                     text-align: start;
-                
+
                     a
                     {
                         font-family: "Oswald", sans-serif;
@@ -40,9 +40,113 @@ main
                         &:hover{ color: #E78D1E;}
                     }
                 }
-            }      
+            }
+        }
+
+        @media all and (max-width: 1800px)
+        {
+                .filtro
+                {
+                    top: 320px;
+                    margin-left: 0px;
+
+                    ul
+                    {
+                        margin-left: 0px ;
+
+                        li
+                        {
+                            list-style-type:none;
+                            margin-bottom: 14px;
+                            
+
+                            a
+                            {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
         }
         
+        @media all and (max-width: 1600px)
+        {
+                .filtro
+                {
+                    top: 320px;
+                    margin-left: 0px;
+
+                    ul
+                    {
+                        margin-left: 0px ;
+
+                        li
+                        {
+                            list-style-type:none;
+                            margin-bottom: 14px;
+                            
+
+                            a
+                            {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+        }
+
+        @media all and (max-width: 1360px)
+        {
+                .filtro
+                {
+                    top: 320px;
+                    margin-left: 0px;
+
+                    ul
+                    {
+                        margin-left: 0px ;
+
+                        li
+                        {
+                            list-style-type:none;
+                            margin-bottom: 14px;
+                            
+
+                            a
+                            {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+        }
+
+        @media all and (max-width: 1200px)
+        {
+                .filtro
+                {
+                    top: 320px;
+                    margin-left: 0px;
+
+                    ul
+                    {
+                        margin-left: 0px ;
+
+                        li
+                        {
+                            list-style-type:none;
+                            margin-bottom: 14px;
+                            
+
+                            a
+                            {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+        }
+
         @media all and (max-width: 1024px)
         {
                 .filtro
@@ -68,7 +172,7 @@ main
                 }
         }
 
-        @media screen and (max-width: 500px)
+        @media all and (max-width: 500px)
         {
             .filtro
             {
@@ -87,11 +191,11 @@ main
                     {
                         font-size: 14px;
                     }
-                }                
+                }
             }
-        }        
-    }   
-    
+        }
+    }
+
     .portadasMangaCatalogo
     {
         display: inline-flex;
@@ -113,7 +217,7 @@ main
                 border: 3px solid #000;
                 box-sizing:content-box;
             }
-            
+
             p
             {
                 font-family: "Noto Sans",sans-serif;
@@ -127,10 +231,58 @@ main
                 font-size: 20px;
                 text-align: center;
             }
-            
-        } 
 
-    } 
+        }
+
+    }
+
+        @media all and (max-width: 1600px)
+        {
+            .portadasMangaCatalogo
+            {
+                margin-left: 100px;
+                margin-top: 7px;
+
+                img
+                {
+                    width: 180px;
+                    height: 280px;
+                    border: 2px solid #000;
+                }
+            }
+        }
+    
+        @media all and (max-width: 1360px)
+        {
+            .portadasMangaCatalogo
+            {
+                margin-left: 100px;
+                margin-top: 7px;
+
+                img
+                {
+                    width: 180px;
+                    height: 280px;
+                    border: 2px solid #000;
+                }
+            }
+        }
+        
+        @media all and (max-width: 1200px)
+        {
+            .portadasMangaCatalogo
+            {
+                margin-left: 100px;
+                margin-top: 7px;
+
+                img
+                {
+                    width: 180px;
+                    height: 280px;
+                    border: 2px solid #000;
+                }
+            }
+        }
 
         @media all and (max-width: 1024px)
         {
@@ -146,9 +298,9 @@ main
                     border: 2px solid #000;
                 }
             }
-        }  
+        }
 
-        @media screen and (max-width: 500px)
+        @media all and (max-width: 768px)
         {
             .portadasMangaCatalogo
             {
@@ -159,7 +311,33 @@ main
                 margin-right: 0px;
                 margin-bottom: 35px;
                 margin-top: 5px;
-            
+
+                div
+                {
+                    margin-top: 120px;
+
+                    img
+                    {
+                        width: 190px;
+                        height: 260px;
+                        border: 2px solid #000;
+                    }
+                }
+            }
+        }
+
+        @media all and (max-width: 500px)
+        {
+            .portadasMangaCatalogo
+            {
+                display: inline-flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 40px;
+                margin-right: 0px;
+                margin-bottom: 35px;
+                margin-top: 5px;
+
                 div
                 {
                     margin-top: 55px;
@@ -174,4 +352,29 @@ main
             }
         }
 
+        @media all and (max-width: 360px)
+        {
+            .portadasMangaCatalogo
+            {
+                display: inline-flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 90px;
+                margin-right: 0px;
+                margin-bottom: 35px;
+                margin-top: 5px;
+
+                div
+                {
+                    margin-top: 83px;
+
+                    img
+                    {
+                        width: 180px;
+                        height: 250px;
+                        border: 2px solid #000;
+                    }
+                }
+            }
+        }
 }
